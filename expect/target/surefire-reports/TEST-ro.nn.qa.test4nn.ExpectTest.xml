@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ro.nn.qa.test4nn.ExpectTest" time="2.395" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\AS400-automation\expect\target\test-classes;C:\AS400-automation\expect\target\classes;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Power User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Power User\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Power User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Power User\.m2\repository\com\jcraft\jsch\0.1.55\jsch-0.1.55.jar;C:\Users\Power User\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Power User\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\Power User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-reload4j\1.7.36\slf4j-reload4j-1.7.36.jar;C:\Users\Power User\.m2\repository\ch\qos\reload4j\reload4j\1.2.19\reload4j-1.2.19.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Power User\AppData\Local\Temp\surefire7166639509206760822\surefirebooter-20250613041046770_3.jar C:\Users\Power User\AppData\Local\Temp\surefire7166639509206760822 2025-06-13T04-10-46_579-jvmRun1 surefire-20250613041046770_1tmp surefire_0-20250613041046770_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\AS400-automation\expect\target\test-classes;C:\AS400-automation\expect\target\classes;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Power User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Power User\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Power User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Power User\.m2\repository\com\jcraft\jsch\0.1.55\jsch-0.1.55.jar;C:\Users\Power User\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Power User\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\Power User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-reload4j\1.7.36\slf4j-reload4j-1.7.36.jar;C:\Users\Power User\.m2\repository\ch\qos\reload4j\reload4j\1.2.19\reload4j-1.2.19.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Power User"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\AS400-automation\expect"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Power User\AppData\Local\Temp\surefire7166639509206760822\surefirebooter-20250613041046770_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Power User"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Power User\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\POWERU~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\AS400-automation\expect"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Power User\.pyenv\pyenv-win\versions\3.12.0rc3;C:\Users\Power User\.pyenv\pyenv-win\versions\3.12.0rc3;C:\Program Files\Java\jdk-18.0.2.1;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\OpenSSL-Win64\bin;C:\tools\PSTools\PsExec;C:\msys64\ucrt64\bin;C:\tools\neovim\nvim-win64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\dotnet\;C:\Program Files\GitHub CLI\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\dotnet\;c:\Users\Power User\AppData\Local\Programs\cursor\resources\app\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.10\bin;C:\Users\Power User\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Power User\AppData\Local\Programs\Python\Python39\;C:\Users\Power User\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.4\bin;;C:\Users\Power User\AppData\Local\GitHubDesktop\bin;C:\ProgramData\Power User\GitHubDesktop\bin;C:\Users\Power User\go\bin;C:\Users\Power User\.pyenv\pyenv-win\bin;C:\Users\Power User\.pyenv\pyenv-win\shims;C:\Users\Power User\AppData\Roaming\npm;C:\Users\Power User\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Power User\.dotnet\tools;;C:\tools\neovim\nvim-win64\bin;C:\Users\Power User\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testExpect4NN" classname="ro.nn.qa.test4nn.ExpectTest" time="1.742">
+    <system-out><![CDATA[[TEST SETUP] Starting AS400 simulator server...
+[TEST SETUP] AS400 simulator already running on port 23
+Writing 'hello' to the pipe
+Looking for '.*llo' pattern...
+0 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Expecting [.*llo]
+1 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match .*llo against buffer ""
+Wrote 'hello', waiting before writing ' world'
+74 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Obtained following from InputStream: hello
+74 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match .*llo against buffer "hello"
+74 [main] TRACE ro.nn.qa.expect4nn.Expect  - success!
+After '.*llo' match: hello, result=0
+Looking for 'world' pattern with zero timeout (should timeout)...
+75 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Expecting [\Qworld\E]
+75 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match \Qworld\E against buffer ""
+75 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Timeout when expecting [\Qworld\E]
+After first 'world' search: match=null, retv=-1
+Looking for 'world' pattern with longer timeout...
+75 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Expecting [\Qworld\E]
+75 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match \Qworld\E against buffer ""
+Writing ' world' to the pipe
+Wrote ' world'
+1086 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Obtained following from InputStream:  world
+1086 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match \Qworld\E against buffer " world"
+1086 [main] TRACE ro.nn.qa.expect4nn.Expect  - success!
+After second 'world' search: match=world, result=0
+Waiting for EOF...
+1086 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Expecting []
+Output stream closed
+1598 [InputStream via SelectableChannel] DEBUG ro.nn.qa.expect4nn.Expect  - EOF from InputStream
+1599 [InputStream via SelectableChannel] DEBUG ro.nn.qa.expect4nn.Expect  - closed sink of the pipe
+1599 [main] DEBUG ro.nn.qa.expect4nn.Expect  - EOF when expecting []
+After EOF: isSuccess=true, result=-2
+Test completed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testTelnet" classname="ro.nn.qa.test4nn.ExpectTest" time="0.584">
+    <system-out><![CDATA[Connecting to localhost:23...
+Successfully connected to AS400 simulator
+Waiting for AS400 sign-on screen...
+1642 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Expecting [(?i).*sign.*on.*, (?i).*AS400SIM.*, (?i).*user.*]
+1642 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*sign.*on.* against buffer ""
+1642 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*AS400SIM.* against buffer ""
+1643 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*user.* against buffer ""
+1643 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Obtained following from InputStream:                              Sign On                               \n                                                                   \n System . . . . :   AS400SIM                                      \n Subsystem  . . :   QINTER                                        \n Display  . . . :   QPADEV0001                                    \n                                                                   \n User . . . . . . :   ________                                    \n Password . . . . :   ________                                    \n Program/procedure:   ________                                    \n Menu . . . . . . :   ________                                    \n Current library  :   ________                                    \n                                                                   \n                                                                   \n (C) COPYRIGHT IBM CORP. 1980, 2023.                             \n                                                                   \n              
+1644 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*sign.*on.* against buffer "                             Sign On                               
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+              "
+1644 [main] TRACE ro.nn.qa.expect4nn.Expect  - success!
+Sign-on screen detected, matched pattern: 0
+Matched text:                              Sign On                               
+Sending authentication: GIUROAL
+Sending password: Bucuresti2
+Waiting for main menu...
+2156 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Expecting [(?i).*MAIN.*MENU.*, (?i).*Select.*following.*, (?i).*User.*tasks.*]
+2156 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*MAIN.*MENU.* against buffer "
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+              "
+2158 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*Select.*following.* against buffer "
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+              "
+2160 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*User.*tasks.* against buffer "
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+              "
+2161 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Obtained following from InputStream:                                                      \n                                                                   \n                                                                   \n                                                                   \n                                                                   \n                                                                   \n                                                                   \n                                                                   \n                                                                   \n\r\n                             Sign On                               \n                                                                   \n System . . . . :   AS400SIM                                      \n Subsystem  . . :   QINTER                                        \n Display  . . . :   QPADEV0001                                    \n                                                                   \n User . . . . . . :
+2161 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*MAIN.*MENU.* against buffer "
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+
+                             Sign On                               
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :"
+2164 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*Select.*following.* against buffer "
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+
+                             Sign On                               
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :"
+2166 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*User.*tasks.* against buffer "
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+
+                             Sign On                               
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :"
+2168 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Obtained following from InputStream:    ________                                    \n Password . . . . :   ________                                    \n Program/procedure:   ________                                    \n Menu . . . . . . :   ________                                    \n Current library  :   ________                                    \n                                                                   \n                                                                   \n (C) COPYRIGHT IBM CORP. 1980, 2023.                             \n                                                                   \n                                                                   \n                                                                   \n                                                                   \n                                                                   \n                                                                   \n                                                                   \n                              
+2169 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*MAIN.*MENU.* against buffer "
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+
+                             Sign On                               
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                              "
+2172 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*Select.*following.* against buffer "
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+
+                             Sign On                               
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                              "
+2175 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*User.*tasks.* against buffer "
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+
+                             Sign On                               
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                              "
+2178 [main] DEBUG ro.nn.qa.expect4nn.Expect  - Obtained following from InputStream:                                      \n                                                                   \n                                                                   \n\r\n                              MAIN MENU                           \n                                                                   \n System: AS400SIM                                                 \n                                                                   \n Select one of the following:                                     \n                                                                   \n      1. User tasks                                               \n      2. Office tasks                                             \n      3. General system tasks                                     \n      4. Files, libraries, and folders                           \n      5. Programming                                              \n      6. Communications                                           \n      7. Define or change the system      
+2178 [main] TRACE ro.nn.qa.expect4nn.Expect  - trying to match (?i).*MAIN.*MENU.* against buffer "
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+
+                             Sign On                               
+                                                                   
+ System . . . . :   AS400SIM                                      
+ Subsystem  . . :   QINTER                                        
+ Display  . . . :   QPADEV0001                                    
+                                                                   
+ User . . . . . . :   ________                                    
+ Password . . . . :   ________                                    
+ Program/procedure:   ________                                    
+ Menu . . . . . . :   ________                                    
+ Current library  :   ________                                    
+                                                                   
+                                                                   
+ (C) COPYRIGHT IBM CORP. 1980, 2023.                             
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+
+                              MAIN MENU                           
+                                                                   
+ System: AS400SIM                                                 
+                                                                   
+ Select one of the following:                                     
+                                                                   
+      1. User tasks                                               
+      2. Office tasks                                             
+      3. General system tasks                                     
+      4. Files, libraries, and folders                           
+      5. Programming                                              
+      6. Communications                                           
+      7. Define or change the system      "
+2182 [main] TRACE ro.nn.qa.expect4nn.Expect  - success!
+SUCCESS: Reached AS400 main menu!
+Matched text:                               MAIN MENU                           
+Test completed successfully
+Disconnected from telnet
+2182 [InputStream via SelectableChannel] DEBUG ro.nn.qa.expect4nn.Expect  - EOF from InputStream
+]]></system-out>
+  </testcase>
+</testsuite>

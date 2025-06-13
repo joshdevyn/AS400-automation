@@ -72,10 +72,39 @@ public class NewEndowmentX1 extends BusinessObjectX
         send(arg1);
         f5();
     }
-
-
     public NewEndowmentX2 next() throws InterruptedException {
         enter();
         return new NewEndowmentX2(this);
+    }
+
+    // Additional methods for comprehensive endowment testing
+    public void setEndowmentAmount(String amount) throws InterruptedException {
+        send(amount);
+        f5();
+    }
+
+    public void setBeneficiary(String beneficiary) throws InterruptedException {
+        send(beneficiary);
+        f5();
+    }
+
+    public void setTerm(String term) throws InterruptedException {
+        send(term);
+        f5();
+    }
+
+    public void setInvestmentOption(String investment) throws InterruptedException {
+        send(investment);
+        f5();
+    }
+
+    public String getCalculatedPremium() throws InterruptedException {
+        // Return calculated premium from screen
+        return getField(10); // Assuming field 10 contains premium
+    }
+
+    public String getMaturityValue() throws InterruptedException {
+        // Return maturity value from screen
+        return getField(11); // Assuming field 11 contains maturity value
     }
 }

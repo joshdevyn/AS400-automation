@@ -152,17 +152,15 @@ public class Expect {
     public boolean isSuccess = false;
 
     public static final int RETV_TIMEOUT = -1, RETV_EOF = -2,
-            RETV_IOEXCEPTION = -9;
-
-    /**
-     * Convenience method, same as calling {@link #expect(int, Object...)
-     * expect(default_timeout, patterns)}
+            RETV_IOEXCEPTION = -9;    /**
+     * Convenience method, same as calling expects(default_timeout, patterns)
+     * Note: Fixed to avoid recursive stack overflow by calling expects() instead of expect()
      *
      * @param patterns
      * @return
      */
     public int expect(Object... patterns) {
-        return expect(default_timeout, patterns);
+        return expects(default_timeout, patterns);
     }
 
     /**

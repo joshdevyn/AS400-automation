@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="254.068" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="AS400 Terminal Connection and Authentication" name="Successful login with valid credentials" time="17.863">
+<system-out><![CDATA[
+Given the AS400 system is available.........................................passed
+And the terminal emulator is initialized with CTT file "test-sample.ctt"....passed
+Given I have valid credentials for NRO "72".................................passed
+When I connect with username "GIUROAL" and password "Bucuresti2"............passed
+Then I should be successfully logged into the system........................passed
+And I should see the main menu..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New Contract Creation and Management" name="Create new contract proposal - Example #1.1" time="58.987">
+<system-out><![CDATA[
+Given I am connected to NRO "72" with "GIUROAL" and "Bucuresti2"............passed
+And I navigate to New Contract Proposal.....................................passed
+Given I create a new Contract of type "1R1".................................passed
+When I set the contract owner to "Adrian"...................................passed
+And I set the date to "01/01/2025"..........................................passed
+And I set the billing frequency to "M"......................................passed
+And I set the method of payment to "C"......................................passed
+And I set the serial number to "1337".......................................passed
+And I set the agent to "75540"..............................................passed
+Then I submit the contract..................................................passed
+And the contract should be created successfully.............................passed
+Then I go back to the main menu.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New Contract Creation and Management" name="Create new contract proposal - Example #1.2" time="58.971">
+<system-out><![CDATA[
+Given I am connected to NRO "72" with "GIUROAL" and "Bucuresti2"............passed
+And I navigate to New Contract Proposal.....................................passed
+Given I create a new Contract of type "2R1".................................passed
+When I set the contract owner to "Maria"....................................passed
+And I set the date to "15/02/2025"..........................................passed
+And I set the billing frequency to "Q"......................................passed
+And I set the method of payment to "D"......................................passed
+And I set the serial number to "1338".......................................passed
+And I set the agent to "75541"..............................................passed
+Then I submit the contract..................................................passed
+And the contract should be created successfully.............................passed
+Then I go back to the main menu.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New Contract Creation and Management" name="Create new contract proposal - Example #1.3" time="59.043">
+<system-out><![CDATA[
+Given I am connected to NRO "72" with "GIUROAL" and "Bucuresti2"............passed
+And I navigate to New Contract Proposal.....................................passed
+Given I create a new Contract of type "1R2".................................passed
+When I set the contract owner to "John".....................................passed
+And I set the date to "01/03/2025"..........................................passed
+And I set the billing frequency to "A"......................................passed
+And I set the method of payment to "C"......................................passed
+And I set the serial number to "1339".......................................passed
+And I set the agent to "75542"..............................................passed
+Then I submit the contract..................................................passed
+And the contract should be created successfully.............................passed
+Then I go back to the main menu.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="AS400 General Test" name="1. Login - Example #1.1" time="59.177">
+<system-out><![CDATA[
+Given the AS400 system is available.........................................passed
+And the terminal emulator is initialized with CTT file "test-sample.ctt"....passed
+Given I am connected to NRO.................................................passed
+And I login with "GIUROAL" and "Bucuresti2".................................passed
+And I should be on the main page of "72"....................................passed
+And I navigate to contract creation.........................................passed
+And I add personal client...................................................passed
+Then I create a new person..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

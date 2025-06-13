@@ -1,0 +1,17 @@
+ro\nn\qa\automation\tests\AS400SimulatorTest.class
+ro\nn\qa\automation\steps\BaseSteps.class
+ro\nn\qa\automation\terminal\MockAS400Terminal.class
+ro\nn\qa\automation\tests\AS400TestRunner.class
+ro\nn\qa\automation\steps\AuthenticationSteps.class
+ro\nn\qa\automation\steps\Steps.class
+ro\nn\qa\automation\steps\BusinessNavigationSteps.class
+ro\nn\qa\automation\tests\BusinessObjectUnitTest.class
+ro\nn\qa\automation\tests\SmokeTestRunner.class
+ro\nn\qa\automation\server\AS400SimulatorServer.class
+ro\nn\qa\automation\tests\TerminalTest.class
+ro\nn\qa\automation\steps\EndowmentSteps.class
+ro\nn\qa\automation\tests\SimpleSocketTest.class
+ro\nn\qa\automation\steps\StepsRunner.class
+ro\nn\qa\automation\tests\RegressionTestRunner.class
+ro\nn\qa\automation\server\AS400SimulatorServer$AS400Session.class
+ro\nn\qa\automation\steps\NewContractSteps.class

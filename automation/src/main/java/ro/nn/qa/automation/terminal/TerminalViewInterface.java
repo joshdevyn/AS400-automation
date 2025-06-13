@@ -1,41 +1,41 @@
 package ro.nn.qa.automation.terminal;
 
-import org.tn5250j.SessionPanel;
-import org.tn5250j.event.SessionChangeEvent;
-import org.tn5250j.event.SessionJumpEvent;
-import org.tn5250j.gui.GenericTn5250JFrame;
+import ro.nn.qa.automation.terminal.AS400Screen;
+import ro.nn.qa.automation.terminal.AS400Terminal;
+import ro.nn.qa.bootstrap.ControllerEvent;
+import ro.nn.qa.bootstrap.ControllerListener;
 
 /**
- * Created by fd09lt on 01.09.2015.
+ * Modernized TerminalViewInterface using AS400Terminal.
  */
-public abstract class TerminalViewInterface extends GenericTn5250JFrame
-{
-        private static final long serialVersionUID = 1L;
-        protected static Terminal me;
-        protected static int sequence;
-        protected int frameSeq;
+public abstract class TerminalViewInterface {
+    protected static AS400Terminal terminal;
+    protected static int sequence;
+    protected int frameSeq;
 
-        public TerminalViewInterface(Terminal var1)
-        {
-            me = var1;
-        }
+    public TerminalViewInterface(AS400Terminal terminalInstance) {
+        terminal = terminalInstance;
+    }
 
-        public int getFrameSequence()
-        {
-            return this.frameSeq;
-        }
+    public int getFrameSequence() {
+        return this.frameSeq;
+    }
 
-        public abstract void addSessionView(String var1, SessionPanel var2);
+    public abstract void addSessionView(String sessionId, AS400Screen screen);
 
-        public abstract void removeSessionView(SessionPanel var1);
+    public abstract void removeSessionView(AS400Screen screen);
 
-        public abstract boolean containsSession(SessionPanel var1);
+    public abstract boolean containsSession(AS400Screen screen);
 
-        public abstract int getSessionViewCount();
+    public abstract int getSessionViewCount();
 
-        public abstract SessionPanel getSessionAt(int var1);
+    public abstract AS400Screen getSessionAt(int index);
 
-        public abstract void onSessionJump(SessionJumpEvent var1);
+    public abstract void onSessionJump(ControllerEvent event);
 
-        public abstract void onSessionChanged(SessionChangeEvent var1);
+    public abstract void onSessionChanged(ControllerEvent event);
+
+    public abstract void closeSession();
+
+    public abstract AS400Screen getScreen();
 }

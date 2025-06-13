@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ro.nn.qa.automation.tests.RegressionTestRunner" time="254.087" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="cucumber.publish.quiet" value="true"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\AS400-automation\automation\target\test-classes;C:\AS400-automation\automation\target\classes;C:\Users\Power User\.m2\repository\com\jcraft\jsch\0.1.55\jsch-0.1.55.jar;C:\Users\Power User\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Power User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Power User\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Power User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\Power User\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Power User\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Power User\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Power User\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Power User\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Power User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Power User\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\AS400-automation\expect\target\classes;C:\Users\Power User\.m2\repository\io\github\cdimascio\dotenv-java\3.0.0\dotenv-java-3.0.0.jar;C:\Users\Power User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-reload4j\1.7.36\slf4j-reload4j-1.7.36.jar;C:\Users\Power User\.m2\repository\ch\qos\reload4j\reload4j\1.2.19\reload4j-1.2.19.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Power User\AppData\Local\Temp\surefire1300564607471997909\surefirebooter-20250613041050039_10.jar C:\Users\Power User\AppData\Local\Temp\surefire1300564607471997909 2025-06-13T04-10-46_579-jvmRun1 surefire-20250613041050039_8tmp surefire_1-20250613041050039_9tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\AS400-automation\automation\target\test-classes;C:\AS400-automation\automation\target\classes;C:\Users\Power User\.m2\repository\com\jcraft\jsch\0.1.55\jsch-0.1.55.jar;C:\Users\Power User\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Power User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Power User\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Power User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\Power User\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Power User\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Power User\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Power User\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Power User\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Power User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Power User\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\AS400-automation\expect\target\classes;C:\Users\Power User\.m2\repository\io\github\cdimascio\dotenv-java\3.0.0\dotenv-java-3.0.0.jar;C:\Users\Power User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-reload4j\1.7.36\slf4j-reload4j-1.7.36.jar;C:\Users\Power User\.m2\repository\ch\qos\reload4j\reload4j\1.2.19\reload4j-1.2.19.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Power User"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\AS400-automation\automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Power User\AppData\Local\Temp\surefire1300564607471997909\surefirebooter-20250613041050039_10.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Power User"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Power User\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\POWERU~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\AS400-automation\automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Power User\.pyenv\pyenv-win\versions\3.12.0rc3;C:\Users\Power User\.pyenv\pyenv-win\versions\3.12.0rc3;C:\Program Files\Java\jdk-18.0.2.1;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\OpenSSL-Win64\bin;C:\tools\PSTools\PsExec;C:\msys64\ucrt64\bin;C:\tools\neovim\nvim-win64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\dotnet\;C:\Program Files\GitHub CLI\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\dotnet\;c:\Users\Power User\AppData\Local\Programs\cursor\resources\app\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.10\bin;C:\Users\Power User\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Power User\AppData\Local\Programs\Python\Python39\;C:\Users\Power User\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.4\bin;;C:\Users\Power User\AppData\Local\GitHubDesktop\bin;C:\ProgramData\Power User\GitHubDesktop\bin;C:\Users\Power User\go\bin;C:\Users\Power User\.pyenv\pyenv-win\bin;C:\Users\Power User\.pyenv\pyenv-win\shims;C:\Users\Power User\AppData\Roaming\npm;C:\Users\Power User\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Power User\.dotnet\tools;;C:\tools\neovim\nvim-win64\bin;C:\Users\Power User\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="Successful login with valid credentials" classname="AS400 Terminal Connection and Authentication" time="17.869">
+    <system-out><![CDATA[
+@ctt @as400 @config:test-sample.ctt @smoke @authentication
+Scenario: Successful login with valid credentials                          &amp#27;[90m# src/test/resources/Authentication.feature:11&amp#27;[0m
+2025-06-13 04:14:16 INFO  [StepsRunner] Setting up test scenario
+2025-06-13 04:14:16 INFO  [AuthenticationSteps] Verifying AS400 system availability
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe AS400 system is available&amp#27;[0m                                      &amp#27;[90m# ro.nn.qa.automation.steps.AuthenticationSteps.theAS400SystemIsAvailable()&amp#27;[0m
+2025-06-13 04:14:16 INFO  [AuthenticationSteps] AS400 Terminal emulator initialized with CTT file: test-sample.ctt
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe terminal emulator is initialized with CTT file "&amp#27;[0m&amp#27;[32m&amp#27;[1mtest-sample.ctt&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# ro.nn.qa.automation.steps.AuthenticationSteps.theTerminalEmulatorIsInitializedWithCTTFile(java.lang.String)&amp#27;[0m
+2025-06-13 04:14:16 INFO  [AuthenticationSteps] Valid credentials set for NRO: 72
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have valid credentials for NRO "&amp#27;[0m&amp#27;[32m&amp#27;[1m72&amp#27;[0m&amp#27;[32m"&amp#27;[0m                              &amp#27;[90m# ro.nn.qa.automation.steps.AuthenticationSteps.iHaveValidCredentialsForNRO(java.lang.String)&amp#27;[0m
+2025-06-13 04:14:16 INFO  [AS400Terminal] Connecting to AS400 system: localhost:23 via TELNET
+2025-06-13 04:14:34 WARN  [AS400Terminal] Timeout waiting for text: MAIN
+2025-06-13 04:14:34 INFO  [AS400Terminal] Successfully connected to AS400 system
+2025-06-13 04:14:34 INFO  [AuthenticationSteps] Login attempt completed for user: GIUROAL
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI connect with username "&amp#27;[0m&amp#27;[32m&amp#27;[1mGIUROAL&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mBucuresti2&amp#27;[0m&amp#27;[32m"&amp#27;[0m         &amp#27;[90m# ro.nn.qa.automation.steps.AuthenticationSteps.iConnectWithUsernameAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+2025-06-13 04:14:34 INFO  [AuthenticationSteps] Login verification successful
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be successfully logged into the system&amp#27;[0m                     &amp#27;[90m# ro.nn.qa.automation.steps.AuthenticationSteps.iShouldBeSuccessfullyLoggedIntoTheSystem()&amp#27;[0m
+2025-06-13 04:14:34 INFO  [AuthenticationSteps] Main menu verification successful
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI should see the main menu&amp#27;[0m                                           &amp#27;[90m# ro.nn.qa.automation.steps.AuthenticationSteps.iShouldSeeTheMainMenu()&amp#27;[0m
+2025-06-13 04:14:34 INFO  [StepsRunner] Cleaning up test scenario
+]]></system-out>
+  </testcase>
+  <testcase name="Create new contract proposal #1" classname="New Contract Creation and Management" time="58.991">
+    <system-out><![CDATA[
+@smoke @contract
+Scenario Outline: Create new contract proposal                     &amp#27;[90m# src/test/resources/NewContract.feature:25&amp#27;[0m
+2025-06-13 04:14:34 INFO  [StepsRunner] Setting up test scenario
+2025-06-13 04:14:34 INFO  [AS400Terminal] Connecting to AS400 system: localhost:23 via TELNET
+2025-06-13 04:14:37 INFO  [AS400Terminal] Successfully connected to AS400 system
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am connected to NRO "&amp#27;[0m&amp#27;[32m&amp#27;[1m72&amp#27;[0m&amp#27;[32m" with "&amp#27;[0m&amp#27;[32m&amp#27;[1mGIUROAL&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1mBucuresti2&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.connect(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI navigate to New Contract Proposal&amp#27;[0m                          &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.clientsMenu()&amp#27;[0m
+2025-06-13 04:14:50 WARN  [BusinessObjectX] Field index 0 out of range (0--1)
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI create a new Contract of type "&amp#27;[0m&amp#27;[32m&amp#27;[1m1R1&amp#27;[0m&amp#27;[32m"&amp#27;[0m                      &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.newContract(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the contract owner to "&amp#27;[0m&amp#27;[32m&amp#27;[1mAdrian&amp#27;[0m&amp#27;[32m"&amp#27;[0m                        &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setContractOwner(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the date to "&amp#27;[0m&amp#27;[32m&amp#27;[1m01/01/2025&amp#27;[0m&amp#27;[32m"&amp#27;[0m                               &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setRiskCommDate(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the billing frequency to "&amp#27;[0m&amp#27;[32m&amp#27;[1mM&amp#27;[0m&amp#27;[32m"&amp#27;[0m                           &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setBillingFreq(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the method of payment to "&amp#27;[0m&amp#27;[32m&amp#27;[1mC&amp#27;[0m&amp#27;[32m"&amp#27;[0m                           &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setPaymentMethod(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the serial number to "&amp#27;[0m&amp#27;[32m&amp#27;[1m1337&amp#27;[0m&amp#27;[32m"&amp#27;[0m                            &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setSerialNumber(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the agent to "&amp#27;[0m&amp#27;[32m&amp#27;[1m75540&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                   &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setAgent(java.lang.String)&amp#27;[0m
+2025-06-13 04:15:26 INFO  [NewContractSteps] Contract submitted successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI submit the contract&amp#27;[0m                                       &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.iSubmitTheContract()&amp#27;[0m
+2025-06-13 04:15:26 INFO  [NewContractSteps] Contract creation verified
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe contract should be created successfully&amp#27;[0m                  &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.theContractShouldBeCreatedSuccessfully()&amp#27;[0m
+2025-06-13 04:15:33 INFO  [NewContractSteps] Returned to main menu
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI go back to the main menu&amp#27;[0m                                  &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.iGoBackToTheMainMenu()&amp#27;[0m
+2025-06-13 04:15:33 INFO  [StepsRunner] Cleaning up test scenario
+]]></system-out>
+  </testcase>
+  <testcase name="Create new contract proposal #2" classname="New Contract Creation and Management" time="58.971">
+    <system-out><![CDATA[
+@smoke @contract
+Scenario Outline: Create new contract proposal                     &amp#27;[90m# src/test/resources/NewContract.feature:26&amp#27;[0m
+2025-06-13 04:15:33 INFO  [StepsRunner] Setting up test scenario
+2025-06-13 04:15:33 INFO  [AS400Terminal] Connecting to AS400 system: localhost:23 via TELNET
+2025-06-13 04:15:36 INFO  [AS400Terminal] Successfully connected to AS400 system
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am connected to NRO "&amp#27;[0m&amp#27;[32m&amp#27;[1m72&amp#27;[0m&amp#27;[32m" with "&amp#27;[0m&amp#27;[32m&amp#27;[1mGIUROAL&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1mBucuresti2&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.connect(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI navigate to New Contract Proposal&amp#27;[0m                          &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.clientsMenu()&amp#27;[0m
+2025-06-13 04:15:49 WARN  [BusinessObjectX] Field index 0 out of range (0--1)
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI create a new Contract of type "&amp#27;[0m&amp#27;[32m&amp#27;[1m2R1&amp#27;[0m&amp#27;[32m"&amp#27;[0m                      &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.newContract(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the contract owner to "&amp#27;[0m&amp#27;[32m&amp#27;[1mMaria&amp#27;[0m&amp#27;[32m"&amp#27;[0m                         &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setContractOwner(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the date to "&amp#27;[0m&amp#27;[32m&amp#27;[1m15/02/2025&amp#27;[0m&amp#27;[32m"&amp#27;[0m                               &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setRiskCommDate(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the billing frequency to "&amp#27;[0m&amp#27;[32m&amp#27;[1mQ&amp#27;[0m&amp#27;[32m"&amp#27;[0m                           &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setBillingFreq(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the method of payment to "&amp#27;[0m&amp#27;[32m&amp#27;[1mD&amp#27;[0m&amp#27;[32m"&amp#27;[0m                           &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setPaymentMethod(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the serial number to "&amp#27;[0m&amp#27;[32m&amp#27;[1m1338&amp#27;[0m&amp#27;[32m"&amp#27;[0m                            &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setSerialNumber(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the agent to "&amp#27;[0m&amp#27;[32m&amp#27;[1m75541&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                   &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setAgent(java.lang.String)&amp#27;[0m
+2025-06-13 04:16:25 INFO  [NewContractSteps] Contract submitted successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI submit the contract&amp#27;[0m                                       &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.iSubmitTheContract()&amp#27;[0m
+2025-06-13 04:16:25 INFO  [NewContractSteps] Contract creation verified
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe contract should be created successfully&amp#27;[0m                  &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.theContractShouldBeCreatedSuccessfully()&amp#27;[0m
+2025-06-13 04:16:32 INFO  [NewContractSteps] Returned to main menu
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI go back to the main menu&amp#27;[0m                                  &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.iGoBackToTheMainMenu()&amp#27;[0m
+2025-06-13 04:16:32 INFO  [StepsRunner] Cleaning up test scenario
+]]></system-out>
+  </testcase>
+  <testcase name="Create new contract proposal #3" classname="New Contract Creation and Management" time="59.045">
+    <system-out><![CDATA[
+@smoke @contract
+Scenario Outline: Create new contract proposal                     &amp#27;[90m# src/test/resources/NewContract.feature:27&amp#27;[0m
+2025-06-13 04:16:32 INFO  [StepsRunner] Setting up test scenario
+2025-06-13 04:16:32 INFO  [AS400Terminal] Connecting to AS400 system: localhost:23 via TELNET
+2025-06-13 04:16:35 INFO  [AS400Terminal] Successfully connected to AS400 system
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am connected to NRO "&amp#27;[0m&amp#27;[32m&amp#27;[1m72&amp#27;[0m&amp#27;[32m" with "&amp#27;[0m&amp#27;[32m&amp#27;[1mGIUROAL&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1mBucuresti2&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.connect(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI navigate to New Contract Proposal&amp#27;[0m                          &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.clientsMenu()&amp#27;[0m
+2025-06-13 04:16:48 WARN  [BusinessObjectX] Field index 0 out of range (0--1)
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI create a new Contract of type "&amp#27;[0m&amp#27;[32m&amp#27;[1m1R2&amp#27;[0m&amp#27;[32m"&amp#27;[0m                      &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.newContract(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the contract owner to "&amp#27;[0m&amp#27;[32m&amp#27;[1mJohn&amp#27;[0m&amp#27;[32m"&amp#27;[0m                          &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setContractOwner(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the date to "&amp#27;[0m&amp#27;[32m&amp#27;[1m01/03/2025&amp#27;[0m&amp#27;[32m"&amp#27;[0m                               &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setRiskCommDate(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the billing frequency to "&amp#27;[0m&amp#27;[32m&amp#27;[1mA&amp#27;[0m&amp#27;[32m"&amp#27;[0m                           &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setBillingFreq(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the method of payment to "&amp#27;[0m&amp#27;[32m&amp#27;[1mC&amp#27;[0m&amp#27;[32m"&amp#27;[0m                           &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setPaymentMethod(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the serial number to "&amp#27;[0m&amp#27;[32m&amp#27;[1m1339&amp#27;[0m&amp#27;[32m"&amp#27;[0m                            &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setSerialNumber(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the agent to "&amp#27;[0m&amp#27;[32m&amp#27;[1m75542&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                   &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.setAgent(java.lang.String)&amp#27;[0m
+2025-06-13 04:17:24 INFO  [NewContractSteps] Contract submitted successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI submit the contract&amp#27;[0m                                       &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.iSubmitTheContract()&amp#27;[0m
+2025-06-13 04:17:24 INFO  [NewContractSteps] Contract creation verified
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe contract should be created successfully&amp#27;[0m                  &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.theContractShouldBeCreatedSuccessfully()&amp#27;[0m
+2025-06-13 04:17:31 INFO  [NewContractSteps] Returned to main menu
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI go back to the main menu&amp#27;[0m                                  &amp#27;[90m# ro.nn.qa.automation.steps.NewContractSteps.iGoBackToTheMainMenu()&amp#27;[0m
+2025-06-13 04:17:31 INFO  [StepsRunner] Cleaning up test scenario
+]]></system-out>
+  </testcase>
+  <testcase name="1. Login" classname="AS400 General Test" time="59.178">
+    <system-out><![CDATA[
+@ctt @as400 @config:test-sample.ctt
+Scenario Outline: 1. Login                                                 &amp#27;[90m# src/test/resources/test.feature:31&amp#27;[0m
+2025-06-13 04:17:31 INFO  [StepsRunner] Setting up test scenario
+2025-06-13 04:17:31 INFO  [AuthenticationSteps] Verifying AS400 system availability
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe AS400 system is available&amp#27;[0m                                      &amp#27;[90m# ro.nn.qa.automation.steps.AuthenticationSteps.theAS400SystemIsAvailable()&amp#27;[0m
+2025-06-13 04:17:31 INFO  [AuthenticationSteps] AS400 Terminal emulator initialized with CTT file: test-sample.ctt
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe terminal emulator is initialized with CTT file "&amp#27;[0m&amp#27;[32m&amp#27;[1mtest-sample.ctt&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# ro.nn.qa.automation.steps.AuthenticationSteps.theTerminalEmulatorIsInitializedWithCTTFile(java.lang.String)&amp#27;[0m
+2025-06-13 04:17:31 INFO  [AS400Terminal] Connecting to AS400 system: localhost:23 via TELNET
+2025-06-13 04:17:34 INFO  [AS400Terminal] Successfully connected to AS400 system
+2025-06-13 04:17:34 INFO  [Steps] Connected to AS400 NRO system
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am connected to NRO&amp#27;[0m                                              &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iAmConnectedToNRO()&amp#27;[0m
+2025-06-13 04:17:34 INFO  [Steps] Successfully logged in with user: GIUROAL
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with "&amp#27;[0m&amp#27;[32m&amp#27;[1mGIUROAL&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1mBucuresti2&amp#27;[0m&amp#27;[32m"&amp#27;[0m                              &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iLoginWith(java.lang.String,java.lang.String)&amp#27;[0m
+2025-06-13 04:17:34 INFO  [Steps] Successfully navigated to main page of environment: 72
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI should be on the main page of "&amp#27;[0m&amp#27;[32m&amp#27;[1m72&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                 &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iShouldBeOnTheMainPageOf(java.lang.String)&amp#27;[0m
+2025-06-13 04:17:34 INFO  [Steps] Navigating to contract creation menu
+2025-06-13 04:17:34 INFO  [Steps] Successfully navigated to contract creation
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI navigate to contract creation&amp#27;[0m                                      &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iNavigateToContractCreation()&amp#27;[0m
+2025-06-13 04:17:36 INFO  [Steps] Navigated to add personal client screen
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add personal client&amp#27;[0m                                                &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iAddPersonalClient()&amp#27;[0m
+2025-06-13 04:17:46 INFO  [Steps] Created new person: Sylvia Stark
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI create a new person&amp#27;[0m                                               &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iCreateANewPerson()&amp#27;[0m
+2025-06-13 04:17:49 INFO  [Steps] Navigated to add personal client screen
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add personal client&amp#27;[0m                                                &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iAddPersonalClient()&amp#27;[0m
+2025-06-13 04:17:57 INFO  [Steps] Created new person: Sanford Gaylord
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI create a new person&amp#27;[0m                                               &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iCreateANewPerson()&amp#27;[0m
+2025-06-13 04:18:00 INFO  [Steps] Navigated to add personal client screen
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add personal client&amp#27;[0m                                                &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iAddPersonalClient()&amp#27;[0m
+2025-06-13 04:18:08 INFO  [Steps] Created new person: Jermaine Hagenes
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI create a new person&amp#27;[0m                                               &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iCreateANewPerson()&amp#27;[0m
+2025-06-13 04:18:11 INFO  [Steps] Navigated to add personal client screen
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add personal client&amp#27;[0m                                                &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iAddPersonalClient()&amp#27;[0m
+2025-06-13 04:18:19 INFO  [Steps] Created new person: Valeria Schaden
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI create a new person&amp#27;[0m                                               &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iCreateANewPerson()&amp#27;[0m
+2025-06-13 04:18:22 INFO  [Steps] Navigated to add personal client screen
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add personal client&amp#27;[0m                                                &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iAddPersonalClient()&amp#27;[0m
+2025-06-13 04:18:30 INFO  [Steps] Created new person: Vernon Wiegand
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI create a new person&amp#27;[0m                                               &amp#27;[90m# ro.nn.qa.automation.steps.Steps.iCreateANewPerson()&amp#27;[0m
+2025-06-13 04:18:30 INFO  [StepsRunner] Cleaning up test scenario
+]]></system-out>
+  </testcase>
+</testsuite>

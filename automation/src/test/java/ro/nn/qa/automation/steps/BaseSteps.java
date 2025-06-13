@@ -1,15 +1,16 @@
 package ro.nn.qa.automation.steps;
 
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
-import org.tn5250j.tools.logging.TN5250jLogFactory;
-import org.tn5250j.tools.logging.TN5250jLogger;
-import ro.nn.qa.automation.terminal.Terminal;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import ro.nn.qa.automation.terminal.AS400Terminal;
 import ro.nn.qa.bootstrap.Controller;
 
 /**
  * Created by Alexandru Giurovici on 14.09.2015.
+ * Updated to use modern AS400Terminal and SLF4J logging
  */
 
 @RunWith(Cucumber.class)
@@ -19,7 +20,7 @@ import ro.nn.qa.bootstrap.Controller;
 )
 public class BaseSteps
 {
-    protected TN5250jLogger log = TN5250jLogFactory.getLogger(this.getClass());
+    protected Logger log = LoggerFactory.getLogger(this.getClass());
     protected Controller controller;
-    protected Terminal terminal;
+    protected AS400Terminal terminal;
 }

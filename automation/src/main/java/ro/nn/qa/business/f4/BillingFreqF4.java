@@ -11,4 +11,22 @@ public class BillingFreqF4 extends BusinessObjectF4
     {
         super(own);
     }
+    
+    // Additional methods for comprehensive testing
+    public void selectOption(String frequency) throws InterruptedException {
+        // Map frequency codes: M=Monthly, Q=Quarterly, A=Annual
+        search(frequency, 1);
+    }
+    
+    public void selectMonthly() throws InterruptedException {
+        selectOption("M");
+    }
+    
+    public void selectQuarterly() throws InterruptedException {
+        selectOption("Q");
+    }
+    
+    public void selectAnnual() throws InterruptedException {
+        selectOption("A");
+    }
 }

@@ -25,5 +25,9 @@ public class MasterMenuX extends BusinessObjectX
         enter();
         return new NewBusinessMenuX(this);
     }
+    
+    public ClientsAdminX getClientsAdmin() throws InterruptedException {
+        return getClientsMenu(); // Alias for consistency
+    }
 
 }

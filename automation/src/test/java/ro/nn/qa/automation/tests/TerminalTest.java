@@ -2,74 +2,87 @@ package ro.nn.qa.automation.tests;
 
 import org.junit.Before;
 import org.junit.Test;
-
-import org.tn5250j.framework.tn5250.Screen5250;
-import org.tn5250j.framework.tn5250.ScreenField;
-import org.tn5250j.tools.LangTool;
-
-import ro.nn.qa.automation.terminal.Terminal;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import ro.nn.qa.automation.terminal.AS400Terminal;
+import ro.nn.qa.automation.terminal.AS400Screen;
+import ro.nn.qa.automation.terminal.AS400Field;
 import ro.nn.qa.bootstrap.Controller;
 
-
-import java.lang.reflect.InvocationTargetException;
+import java.util.List;
 
 import static java.lang.Thread.sleep;
 
 /**
- * Created by Alexandru Giurovici on 02.09.2015.
+ * Terminal Test - Modernized to use AS400Terminal instead of TN5250j
  */
-
-public class TerminalTest
-{
-
+public class TerminalTest {
+    private static final Logger logger = LoggerFactory.getLogger(TerminalTest.class);
+    
     protected Controller controller;
-
-    @Before
-    public void start()
-    {
-        controller = new Controller();
-        controller.start();
+    protected AS400Terminal terminal;    @Before
+    public void start() {
+        controller = Controller.getInstance();
+        if (!controller.isAlive()) {
+            controller.start();
+        }
     }
 
     @Test
-    public void myTerminalTest() throws InterruptedException, InvocationTargetException {
-        Terminal term = new Terminal();
+    public void myTerminalTest() throws Exception {
+        logger.info("Starting terminal test");
+        
+        // Create AS400Terminal with connection parameters
+        terminal = new AS400Terminal("localhost", 23, "GIUROAL", "Bucuresti1", AS400Terminal.ConnectionType.TELNET);
 
-        if (controller != null)
-            controller.addListener(term);
-
-        LangTool.init();
-
-        Screen5250 screen = term.startNewSession().getSession().getScreen();
-
+        // Connect to the AS400 system
+        terminal.connect();
+        logger.info("Connected to AS400");        // Wait for initial screen
         sleep(5000);
-        ScreenField[] fields = screen.getScreenFields().getFields();
+          // Get current screen
+        AS400Screen screen = terminal.getScreen();
+        List<AS400Field> fields = screen.getFields();
+        
+        if (fields.size() >= 2) {
+            // Fill in username
+            AS400Field userName = fields.get(0);
+            if (userName.isInputField()) {
+                userName.setValue("GIUROAL");
+                logger.info("Entered username");
+            }
 
-        ScreenField userName = fields[0];
-        userName.setString("GIUROAL");
+            // Fill in password
+            AS400Field password = fields.get(1);
+            if (password.isInputField()) {
+                password.setValue("Bucuresti1");
+                logger.info("Entered password");
+            }
+        }
 
-        ScreenField pass = fields[1];
-        pass.setString("Bucuresti1");
-
-        screen.sendKeys("[enter]");
-
+        // Press Enter to submit login
+        terminal.pressEnter();
         sleep(1000);
-        screen.sendKeys("[enter]");
+        
+        // Press Enter again (common AS400 login flow)
+        terminal.pressEnter();
 
-        screen.sendKeys("72[enter]");
+        // Enter environment selection (72)
+        terminal.sendText("72");
+        terminal.pressEnter();
         sleep(1000);
 
-        fields = screen.getScreenFields().getFields();
-
-
-        screen.sendKeys("[pf3]");
-
+        // Navigate through menu system
+        logger.info("Navigating through menus");
+        
+        // Press F3 to exit
+        terminal.sendFunctionKey(3);
         sleep(1000);
-        screen.sendKeys("[pf3]");
+        
+        // Press F3 again to fully exit
+        terminal.sendFunctionKey(3);
+        
+        // Disconnect
+        terminal.disconnect();
+        logger.info("Terminal test completed successfully");
     }
-
-
-
-
-
 }

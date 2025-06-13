@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.12" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="cucumber.publish.quiet" value="true"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\AS400-automation\automation\target\test-classes;C:\AS400-automation\automation\target\classes;C:\Users\Power User\.m2\repository\com\jcraft\jsch\0.1.55\jsch-0.1.55.jar;C:\Users\Power User\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Power User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Power User\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Power User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\Power User\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Power User\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Power User\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Power User\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Power User\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Power User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Power User\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\AS400-automation\expect\target\classes;C:\Users\Power User\.m2\repository\io\github\cdimascio\dotenv-java\3.0.0\dotenv-java-3.0.0.jar;C:\Users\Power User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-reload4j\1.7.36\slf4j-reload4j-1.7.36.jar;C:\Users\Power User\.m2\repository\ch\qos\reload4j\reload4j\1.2.19\reload4j-1.2.19.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Power User\AppData\Local\Temp\surefire1300564607471997909\surefirebooter-20250613041050039_10.jar C:\Users\Power User\AppData\Local\Temp\surefire1300564607471997909 2025-06-13T04-10-46_579-jvmRun1 surefire-20250613041050039_8tmp surefire_1-20250613041050039_9tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\AS400-automation\automation\target\test-classes;C:\AS400-automation\automation\target\classes;C:\Users\Power User\.m2\repository\com\jcraft\jsch\0.1.55\jsch-0.1.55.jar;C:\Users\Power User\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Power User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Power User\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Power User\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Power User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Power User\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\Power User\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Power User\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Power User\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Power User\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Power User\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Power User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Power User\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\AS400-automation\expect\target\classes;C:\Users\Power User\.m2\repository\io\github\cdimascio\dotenv-java\3.0.0\dotenv-java-3.0.0.jar;C:\Users\Power User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar;C:\Users\Power User\.m2\repository\org\slf4j\slf4j-reload4j\1.7.36\slf4j-reload4j-1.7.36.jar;C:\Users\Power User\.m2\repository\ch\qos\reload4j\reload4j\1.2.19\reload4j-1.2.19.jar;C:\Users\Power User\.m2\repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Power User"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\AS400-automation\automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Power User\AppData\Local\Temp\surefire1300564607471997909\surefirebooter-20250613041050039_10.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Power User"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Power User\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\POWERU~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\AS400-automation\automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Power User\.pyenv\pyenv-win\versions\3.12.0rc3;C:\Users\Power User\.pyenv\pyenv-win\versions\3.12.0rc3;C:\Program Files\Java\jdk-18.0.2.1;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\OpenSSL-Win64\bin;C:\tools\PSTools\PsExec;C:\msys64\ucrt64\bin;C:\tools\neovim\nvim-win64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\dotnet\;C:\Program Files\GitHub CLI\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\dotnet\;c:\Users\Power User\AppData\Local\Programs\cursor\resources\app\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.10\bin;C:\Users\Power User\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Power User\AppData\Local\Programs\Python\Python39\;C:\Users\Power User\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.4\bin;;C:\Users\Power User\AppData\Local\GitHubDesktop\bin;C:\ProgramData\Power User\GitHubDesktop\bin;C:\Users\Power User\go\bin;C:\Users\Power User\.pyenv\pyenv-win\bin;C:\Users\Power User\.pyenv\pyenv-win\shims;C:\Users\Power User\AppData\Roaming\npm;C:\Users\Power User\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Power User\.dotnet\tools;;C:\tools\neovim\nvim-win64\bin;C:\Users\Power User\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testF4HelpFunctionality" classname="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.002">
+    <system-out><![CDATA[2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: GIUROAL / Bucuresti2
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login successful
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock navigation to menu: new contract
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock sendKeys: [pf4]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock F4 help activated on screen: NEW_CONTRACT
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+]]></system-out>
+  </testcase>
+  <testcase name="testAmountValidation" classname="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.001">
+    <system-out><![CDATA[2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: GIUROAL / Bucuresti2
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login successful
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+]]></system-out>
+  </testcase>
+  <testcase name="testBusinessObjectCreation" classname="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.102">
+    <system-out><![CDATA[2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: GIUROAL / Bucuresti2
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login successful
+2025-06-13 04:14:16 ERROR [AS400Screen] Error refreshing screen
+java.lang.NullPointerException: Cannot invoke "java.io.InputStream.available()" because "this.inputStream" is null
+	at ro.nn.qa.automation.terminal.AS400Terminal.readCurrentScreen(AS400Terminal.java:290)
+	at ro.nn.qa.automation.terminal.AS400Screen.refresh(AS400Screen.java:35)
+	at ro.nn.qa.automation.terminal.AS400Screen.<init>(AS400Screen.java:27)
+	at ro.nn.qa.business.BusinessObject.<init>(BusinessObject.java:36)
+	at ro.nn.qa.business.BusinessObjectX.<init>(BusinessObjectX.java:30)
+	at ro.nn.qa.automation.tests.BusinessObjectUnitTest.testBusinessObjectCreation(BusinessObjectUnitTest.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+]]></system-out>
+  </testcase>
+  <testcase name="testContractCreationFlow" classname="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.002">
+    <system-out><![CDATA[2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: GIUROAL / Bucuresti2
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login successful
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock navigation to menu: new contract
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock setField[1] = 1R1
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock setField[2] = John Doe
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock setField[3] = 01/01/2025
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock getField[1]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+]]></system-out>
+  </testcase>
+  <testcase name="testDateValidation" classname="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.002">
+    <system-out><![CDATA[2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: GIUROAL / Bucuresti2
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login successful
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+]]></system-out>
+  </testcase>
+  <testcase name="testErrorHandling" classname="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.002">
+    <system-out><![CDATA[2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: GIUROAL / Bucuresti2
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login successful
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: INVALID / TEST
+2025-06-13 04:14:16 WARN  [MockAS400Terminal] Mock login failed - invalid credentials
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+]]></system-out>
+  </testcase>
+  <testcase name="testMainMenuNavigation" classname="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.001">
+    <system-out><![CDATA[2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: GIUROAL / Bucuresti2
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login successful
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock navigation to menu: new business
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock navigation to menu: client administration
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+]]></system-out>
+  </testcase>
+  <testcase name="testSessionCleanup" classname="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.001">
+    <system-out><![CDATA[2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: GIUROAL / Bucuresti2
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login successful
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+]]></system-out>
+  </testcase>
+  <testcase name="testTerminalConnection" classname="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.003">
+    <system-out><![CDATA[2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: GIUROAL / Bucuresti2
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login successful
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+]]></system-out>
+  </testcase>
+  <testcase name="testScreenNavigation" classname="ro.nn.qa.automation.tests.BusinessObjectUnitTest" time="0.002">
+    <system-out><![CDATA[2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal initialized with screens: [ENDOWMENT_1, SIGNON, MAIN_MENU, CLIENT_ADMIN, NEW_BUSINESS, ENDOWMENT_2, NEW_CONTRACT]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock connection to AS400 host: localhost:23
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login attempt: GIUROAL / Bucuresti2
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock login successful
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock sendKeys: [enter]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock screen transition to: NEW_BUSINESS
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock sendKeys: [pf3]
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock F3 navigation to: MAIN_MENU
+2025-06-13 04:14:16 INFO  [MockAS400Terminal] Mock AS400 terminal disconnected
+]]></system-out>
+  </testcase>
+</testsuite>
